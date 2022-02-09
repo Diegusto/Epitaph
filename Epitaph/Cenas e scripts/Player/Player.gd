@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+#Constantes relacionadas a movimentação
 const Cima = Vector2(0,-1)
 const Gravidade = 40
 const MaxVelocidadeQueda = 600
@@ -9,9 +10,7 @@ const ForcaPulo = 1100
 var movimento = Vector2()
 
 
-func _ready():
-	pass 
-
+#função referente a movimentação
 func _physics_process(delta):
 	
 	movimento.y += Gravidade
