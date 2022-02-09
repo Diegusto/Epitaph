@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile_tijolos_arenito.png-45e8ef353d9ab9007c5705e40ab3c9db.stex"
+path="res://.import/chão 2.png-5a25040162ff54088450760cacdbb3cb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Artes/tile_tijolos_arenito.png"
-dest_files=[ "res://.import/tile_tijolos_arenito.png-45e8ef353d9ab9007c5705e40ab3c9db.stex" ]
+source_file="res://Artes/chão 2.png"
+dest_files=[ "res://.import/chão 2.png-5a25040162ff54088450760cacdbb3cb.stex" ]
 
 [params]
 
