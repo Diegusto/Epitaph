@@ -19,10 +19,16 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("ui_right"):
 		movimento.x = MaxVelociade
+		get_node("AnimatedSprite").animation = "andando"
+		get_node("AnimatedSprite").flip_h = false
 	elif Input.is_action_pressed("ui_left"):
 		movimento.x = -MaxVelociade
+		get_node("AnimatedSprite").animation = "andando"
+		get_node("AnimatedSprite").flip_h = true
 	else:
 		movimento.x = 0
+		get_node("AnimatedSprite").animation ="default"
+	
 	
 	if is_on_floor():
 		if Input.is_action_pressed("ui_up"):
