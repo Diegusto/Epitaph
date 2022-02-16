@@ -22,6 +22,7 @@ func _physics_process(delta):
 		
 		get_node("AnimatedSprite").animation = "andando"
 		get_node("AnimatedSprite").flip_h = false
+		
 	elif Input.is_action_pressed("ui_left"):
 		movimento.x = -MaxVelociade
 		
@@ -30,7 +31,7 @@ func _physics_process(delta):
 	else:
 		movimento.x = 0
 		get_node("AnimatedSprite").animation ="default"
-	#get_node serve para tratar a animação mudando de default para andando e mudando o lado de acordo com o input
+		#get_node serve para tratar a animação mudando de default para andando e mudando o lado de acordo com o input
 	
 	if is_on_floor():
 		if Input.is_action_pressed("ui_up"):
