@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/esqueleto.png-643353eb5e048528ede9698d540ef23e.stex"
+path="res://.import/pulo finalizado0.png-1efaa17cbd4bdf4b10c19858c3d4901c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Artes/esqueleto.png"
-dest_files=[ "res://.import/esqueleto.png-643353eb5e048528ede9698d540ef23e.stex" ]
+source_file="res://Artes/pulo finalizado0.png"
+dest_files=[ "res://.import/pulo finalizado0.png-1efaa17cbd4bdf4b10c19858c3d4901c.stex" ]
 
 [params]
 
